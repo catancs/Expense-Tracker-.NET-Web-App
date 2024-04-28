@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/Users/cata/Desktop/to-do/wwwroot/images/image.png",
+      "PackagePath": "staticwebassets/images/image.png"
+    },
+    {
+      "Id": "/Users/cata/Desktop/to-do/wwwroot/images/incomes_image.png",
+      "PackagePath": "staticwebassets/images/incomes_image.png"
+    },
+    {
       "Id": "/Users/cata/Desktop/to-do/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },

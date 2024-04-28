@@ -11,6 +11,12 @@ a {
   color: #0077cc;
 }
 
+.footer {
+  width: 100%;
+  line-height: 60px; 
+  
+}
+
 .btn-primary {
   color: #fff;
   background-color: #1b6ec2;
@@ -30,6 +36,42 @@ a {
   border-bottom: 1px solid #e5e5e5;
 }
 
+.card {
+  margin-bottom: 1.5rem;
+}
+
+.card-header {
+  background-color: #f8f9fa;
+}
+
+.card-body {
+  padding: 1.25rem;
+}
+
+.card-footer {
+  background-color: #f8f9fa;
+}
+
+.card-footer .btn {
+  margin-right: 0.5rem;
+}
+
+.card-footer .btn:last-child {
+  margin-right: 0;
+}
+
+.card-footer .btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.card-footer .btn-primary:hover {
+  color: #fff;
+  background-color: #1861ac;
+  border-color: #165eac;
+}
+
 .box-shadow {
   box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
 }
@@ -45,4 +87,8 @@ button.accept-policy {
   width: 100%;
   white-space: nowrap;
   line-height: 60px;
+}
+
+.pulse {
+  animation: pulse 2s infinite;
 }

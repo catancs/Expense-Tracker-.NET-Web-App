@@ -1,10 +1,47 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Home Page";
+    Layout = "_Layout"; 
 }
 
-<div class="text-center">
-    <h1 class="display-4">WELCOME SUGETI PULA </h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="text-center text-white py-5 homepage-content">
+    <h1 class="display-4">Welcome to Expense Tracker</h1>
+    <p class="lead mb-4">Keep track of your incomes and expenditures with ease.</p>
+    <div class="button-group">
+        <a asp-page="/Incomes/Index" class="btn btn-outline-light btn-lg m-2">Incomes</a>
+        <a asp-page="/Expenses/Index" class="btn btn-outline-light btn-lg m-2">Expenses</a>
+        <a asp-page="/Categories/Index" class="btn btn-outline-light btn-lg m-2">Categories</a>
+    </div>
 </div>
+
+
+@section Styles {
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+
+        .homepage-bg {
+            position: absolute; 
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/image.png');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed; 
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .button-group a.btn {
+            min-width: 200px;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+            border-radius: 25px;
+        }
+    </style>
+}
