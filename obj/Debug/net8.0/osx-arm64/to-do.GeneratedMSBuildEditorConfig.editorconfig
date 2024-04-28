@@ -50,6 +50,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/cata/Desktop/to-do/Pages/Expenses/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXhwZW5zZXMvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/cata/Desktop/to-do/Pages/Expenses/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXhwZW5zZXMvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/cata/Desktop/to-do/Pages/Expenses/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXhwZW5zZXMvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/cata/Desktop/to-do/Pages/Expenses/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXhwZW5zZXMvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/cata/Desktop/to-do/Pages/Expenses/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXhwZW5zZXMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/cata/Desktop/to-do/Pages/Incomes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5jb21lcy9DcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

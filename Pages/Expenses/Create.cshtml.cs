@@ -1,10 +1,13 @@
 using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using ToDo.Models; 
+using Microsoft.AspNetCore.Mvc.Rendering;
+using ToDo.Models;
 
-namespace to_do.Pages.Categories
+namespace to_do.Pages.Expenses
 {
     public class CreateModel : PageModel
     {
@@ -17,11 +20,12 @@ namespace to_do.Pages.Categories
 
         public IActionResult OnGet()
         {
+        ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Id");
             return Page();
         }
 
         [BindProperty]
-        public Category Category { get; set; } 
+        public Expense Expense { get; set; } = default!;
 
         // To protect from overposting attacks, see https://aka.ms/RazorPagesCRUD
         public async Task<IActionResult> OnPostAsync()
@@ -31,10 +35,10 @@ namespace to_do.Pages.Categories
                 return Page();
             }
 
-            _context.Categories.Add(Category); 
+            _context.Expenses.Add(Expense);
             await _context.SaveChangesAsync();
 
-            return RedirectToPage("./Index"); // Assuming you have an Index page for Categories
+            return RedirectToPage("./Index");
         }
     }
 }
