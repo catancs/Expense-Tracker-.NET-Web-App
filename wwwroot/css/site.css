@@ -12,19 +12,16 @@ html {
   box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
-html {
-  position: relative;
-  min-height: 100%;
-}
-
-body {
-  margin-bottom: 60px;
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 
 .income-table th {
-  background-color: #004085;
-  color: white;
+  background: url('/images/gox6.jpg') no-repeat center center fixed;
+  
 }
 
 .income-table tr:nth-child(even) {
@@ -32,12 +29,24 @@ body {
 }
 
 body.homepage {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/home-bg.jpg') no-repeat center center fixed;
+  background: url('/images/gox6.jpg') no-repeat center center fixed;
   background-size: cover;
-  height: 100vh;
-  margin: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 100vh;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
