@@ -1,0 +1,6 @@
+Microsoft.EntityFrameworkCore.Design, Version=8.0.4
+Microsoft.EntityFrameworkCore.Sqlite, Version=8.0.4
+Microsoft.EntityFrameworkCore.SqlServer, Version=8.0.4
+Microsoft.EntityFrameworkCore.Tools, Version=8.0.4
+Microsoft.VisualStudio.Web.CodeGeneration.Design, Version=8.0.2
+Microsoft.VisualStudio.Web.CodeGenerators.Mvc, Version=8.0.2
