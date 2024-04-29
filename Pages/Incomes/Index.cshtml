@@ -11,8 +11,8 @@
         <h2 class="text-white">Incomes</h2>
         <a asp-page="Create" class="btn btn-success my-3">Add New Income</a>
         <div class="table-responsive">
-            <table class="table table-striped table-bordered table-hover table-dark">
-                <thead>
+            <table class="income-table table table-striped table-bordered table-hover table-dark">
+                <thead class = "income-table">
                     <tr>
                         <th>@Html.DisplayNameFor(model => model.Income[0].Source)</th>
                         <th>@Html.DisplayNameFor(model => model.Income[0].Amount)</th>
@@ -47,7 +47,10 @@
         }
 
        
-
+.table thead th {
+            background-color: #007bff; /* Bootstrap primary color */
+            color: white; /* Text color for header */
+        }
         
         .text-center {
             padding: 15px;

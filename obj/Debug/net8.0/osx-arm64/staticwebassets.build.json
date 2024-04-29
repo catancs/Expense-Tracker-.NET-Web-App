@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RXaCYQ6EgKrIVw6L8yTivv+a1GXCPfnu87bIJ0tltLY=",
+  "Hash": "Yzr4K3wn3WHghjUw06qgZoWjXHfm3n89nAW6b2IaG7E=",
   "Source": "to-do",
   "BasePath": "_content/to-do",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/Users/cata/Desktop/to-do/wwwroot/images/gox6.jpg",
+      "SourceId": "to-do",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/cata/Desktop/to-do/wwwroot/",
+      "BasePath": "_content/to-do",
+      "RelativePath": "images/gox6.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/gox6.jpg"
     },
     {
       "Identity": "/Users/cata/Desktop/to-do/wwwroot/images/image.png",
